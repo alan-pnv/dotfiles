@@ -12,6 +12,8 @@ chmod +x $HOME/.config/i3/scripts/*
 
 ## Packages to be installed
 ### pacman
-i3-wm i3blocks terminator compton acpi lightdm rofi lightdm-webkit2-greeter 
+i3-wm i3blocks terminator feh compton acpi lightdm rofi lightdm-webkit2-greeter 
 ### AUR
 i3lock-color-git lightdm-webkit-theme-aether 
+### optional pacman
+flameshot
