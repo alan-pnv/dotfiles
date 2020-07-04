@@ -38,10 +38,10 @@ setxkbmap us && \
 --bar-indicator            \
 --bar-position="839"          \
 --clock               \
---timestr="%I:%M %p"  \
+--timestr="%I:%M %P"  \
 --datestr="%d %b %Y" \
 --datepos="1470:780" \
---timepos="1470:740" \
+--timepos="1470:730" \
 --time-align 2 \
 --date-align 2 \
 --timesize="72" \
