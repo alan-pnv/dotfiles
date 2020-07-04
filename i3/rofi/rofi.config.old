@@ -1,0 +1,20 @@
+rofi.lines: 5
+!rofi.eh: 2
+!rofi.padding: 100
+rofi.bw: 4
+rofi.width: 30
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+rofi.opacity: "86"
+
+!                  'background', 'border', 'separator'
+rofi.color-window: #000000, #12A2BA, #12A2BA
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+!rofi.color-urgent: #fdf6e3,  #dc322f,  #eee8d5,  #dc322f,  #fdf6e3
+!rofi.color-active: #fdf6e3,  #268bd2,  #eee8d5,  #268bd2,  #fdf6e3
+!rofi.color-normal: #000000,#12A2BA,#000000,#586e75,#eee8d5
+rofi.font: System San Francisco Display 18
+
+rofi.color-normal: #1C211C,  #12A2BA,  #000000,  #12A2BA,  #000000
+rofi.color-urgent: #12A2BA,  #000000,  #12A2BA,  #000000,  #12A2BA
+rofi.color-active: #12A2BA,  #000000,  #12A2BA,  #268bd2,  #fdf6e3

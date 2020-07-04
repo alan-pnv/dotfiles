@@ -1,0 +1,62 @@
+#!/bin/sh
+
+B='#00000000'  # blank
+C='#a8998422'  # clear ish
+D='#928374ff'  # default
+T='#ebdbb2ff'  # text
+W='#12A2BAff'  # wrong
+V='#458588ff'  # verifying
+BL='#000000ff' # black
+BG='#282828ff' # background color
+BAR='#ffffffff' # bar background color
+
+setxkbmap us && \
+/usr/bin/i3lock \
+--color=$T   \
+--insidevercolor=$C   \
+--ringvercolor=$V     \
+\
+--insidewrongcolor=$C \
+--ringwrongcolor=$W   \
+\
+--insidecolor=$B      \
+--ringcolor=$D        \
+--linecolor=$B        \
+--separatorcolor=$D   \
+\
+--verifcolor=$T        \
+--wrongcolor=$T        \
+--timecolor=$BL        \
+--datecolor=$BL        \
+--layoutcolor=$T      \
+--keyhlcolor=$W       \
+--bshlcolor=$BAR        \
+--bar-color=$B \
+\
+--image="/home/alan/.config/i3/wallpapers/Cyan.png" \
+--screen 1            \
+--bar-indicator            \
+--bar-position="839"          \
+--clock               \
+--timestr="%H:%M"  \
+--datestr="%d %b %Y" \
+--datepos="1470:780" \
+--timepos="1470:740" \
+--time-align 2 \
+--date-align 2 \
+--timesize="72" \
+--datesize="36" \
+--blur=5 \
+--noinputtext="D'oh!" \
+--veriftext="Bip Bop Bip" \
+--wrongtext="(✖╭╮✖)" \
+#--noinputtext="" \
+#--veriftext="" \
+#--wrongtext="" \
+#--no-verify \
+#--keylayout 0         \
+#--textsize=20 \
+# --modsize=10
+# --timefont=comic-sans
+# --datefont=monofur
+# etc
